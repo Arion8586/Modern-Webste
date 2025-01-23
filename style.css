@@ -47,8 +47,10 @@ a{
     padding-inline: var(--padding-inline-setion);
 }
 .top-banner{
-    background-image: url();
+    background-image: url(./Assets/asset\ 28.png);
     background-color: #4fb3d4;
+    background-size: 300px
+    
 }
 .banner-text{
     color: white;
