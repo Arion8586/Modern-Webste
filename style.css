@@ -169,3 +169,14 @@ header{
 .logo{
     height: 46px;
 }
+/* Features */
+.features-section{
+    padding: 80px var(--padding-inline-setion) 0 ;
+
+}
+.features-header{
+    text-align: center;
+}
+.features-heading-text{
+    margin-bottom: 20px;
+}
