@@ -55,7 +55,11 @@ a {
     margin-inline: auto;
     padding-inline: var(--padding-inline-setion);
 }
-
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* top banner */
 .top-banner {
     background-image: url(./Assets/asset\ 28.png);
     background-color: #4fb3d4;
@@ -66,4 +70,8 @@ a {
     color: white;
     padding: 15px 30px;
     text-align: center;
+}
+/* nav bar */
+.main-nav{
+
 }
