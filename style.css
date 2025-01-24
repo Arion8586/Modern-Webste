@@ -44,6 +44,10 @@ a {
     display: inline-block;
 }
 
+ul {
+    list-style: none;
+}
+
 /* Utility classes */
 .small-bold-text {
     font-size: 1rem;
@@ -51,14 +55,16 @@ a {
 }
 
 .container {
-    max-height: 1180px;
+    max-width: 1180px;
     margin-inline: auto;
     padding-inline: var(--padding-inline-setion);
 }
-.flex{
+
+.flex {
     display: flex;
     align-items: center;
 }
+
 /* top banner */
 .top-banner {
     background-image: url(./Assets/asset\ 28.png);
@@ -71,7 +77,11 @@ a {
     padding: 15px 30px;
     text-align: center;
 }
-/* nav bar */
-.main-nav{
 
+/* nav bar */
+.main-nav {
+justify-content: space-between;
+}
+.company-logo img{
+    width: 200px;
 }
