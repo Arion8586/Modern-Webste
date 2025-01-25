@@ -223,8 +223,12 @@ header{
     position: relative;
     min-height: 300px;
     background: black;
-    background-image: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)), url(Assets/asset\ 31.plain);
+    background-image: ;
 }
+  .example-card:hover{
+      box-shadow: 0 0 10px #888;
+  }
+/* }1.7.14 once more watch arrange image  */
 .card-text{
     position: absolute;
     bottom: 20px;
