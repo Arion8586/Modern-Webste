@@ -122,6 +122,7 @@ ul {
 .main-nav {
     margin-top: 20px;
     justify-content: space-between;
+    position: relative;
 }
 
 .company-logo img {
@@ -185,6 +186,7 @@ header{
 }
 .features-header {
     text-align: center;
+    margin-bottom: 40px;
 }
 .features-heading-text{
     margin-bottom: 20px;
@@ -228,6 +230,7 @@ header{
 .exapmle-header{
     flex-direction: column;
     gap: 20px;
+    text-align: center;
 }
 .example-area{
     justify-content: space-between;
@@ -265,6 +268,7 @@ header{
     flex-direction: column;
     gap: 30px;
     color: rgb(100, 220, 134);
+    text-align: center;
 }
 .cta-section{
     padding: 120px var(--padding-inline-setion) 80px;
@@ -296,4 +300,5 @@ padding: var(--padding-inline-setion);
 .subfooter-container{
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
